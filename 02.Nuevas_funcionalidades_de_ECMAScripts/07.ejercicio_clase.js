@@ -91,3 +91,5 @@ console.log(ticketManager.getEventos);
 ticketManager.agregarUsuario(1,1)
 ticketManager.agregarUsuario(1,2)
 ticketManager.ponerEventoEnGira(2,'ramallo', '11-12-2024')
+
+
