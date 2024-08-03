@@ -1,4 +1,3 @@
-
 const { Router } = require ('express')
 
 const router = Router()
@@ -21,7 +20,8 @@ router.get('/', (req, res) => {
         user: userLogin,
         isAdmin: userLogin.role === 'admin',
         users,
-        title: 'HOME - Ecomerce'
+        title: 'HOME - Ecomerce',
+        styles: 'styles.css'
     })
 })
 
